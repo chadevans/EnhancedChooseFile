@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="EnhancedChooseFile.widget.EnhancedChooseFile" needsEntityContext="true" xmlns="http://www.mendix.com/widget/1.0/">
+  <name>EnhancedChooseFile</name>
+  <description>The description of this widget.</description>
+
+  <icon></icon>
+
+  <properties>
+        <property key="btnClass" type="string" required="true" defaultValue="btn btn-primary">
+            <caption>Button Class</caption>
+            <category>Appearance</category>
+            <description>The class of the button, for styling.</description>
+        </property>
+        <property key="btnText" type="string" required="true" defaultValue="Choose File...">
+            <caption>Button Text</caption>
+            <category>Appearance</category>
+            <description>The text of the button.</description>
+        </property>
+        <property key="fileInputClass" type="string" required="true" defaultValue=".filemanager">
+            <caption>File Input Class</caption>
+            <category>Behavior</category>
+            <description>The class of the file input control to enhance.</description>
+        </property>
+	</properties>
+</widget>
+
